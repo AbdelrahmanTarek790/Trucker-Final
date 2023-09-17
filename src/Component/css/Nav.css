@@ -1,0 +1,54 @@
+.dark-theme {
+  background: black;
+  color: white !important;
+}
+.white-theme {
+  background: white;
+  color: black !important;
+}
+
+.nav-edit {
+  padding-top: 1rem;
+  font-size: 20px;
+}
+.nav-edit2 {
+  font-style: oblique;
+  font-size: 40px;
+}
+.navbar-brand {
+  font-weight: bold;
+  margin-right: 0rem;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  -webkit-appearance: none;
+}
+
+.Betweens {
+  display: flex;
+  flex-wrap: nowrap;
+  border-right: 1px solid rgba(64, 69, 83, 0.2);
+  height: 25px;
+}
+.Arabic {
+  font-family: Light;
+}
+
+.changelang {
+  transition: all 1s;
+}
+
+.changelang:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  background-color: rgba(80, 80, 80, 0.1);
+}
+.ancor {
+  transition: all 1s;
+}
+.ancor:hover {
+  background-color: rgba(80, 80, 80, 0.1);
+}

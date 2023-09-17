@@ -1,0 +1,160 @@
+.profile-pic {
+  width: 150px;
+  height: 150px;
+}
+.inputavatar {
+  display: none;
+}
+
+.imgAvatar {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  left: 0;
+  border-radius: 150px;
+  z-index: 0;
+}
+
+.-label {
+  cursor: pointer;
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  border-radius: 150px;
+  z-index: 10;
+}
+.--label {
+  cursor: pointer;
+  height: 150px;
+  width: 150px;
+  border-radius: 150px;
+}
+
+.--label:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 10000;
+  color: rgb(250, 250, 250);
+  transition: background-color 0.2s ease-in-out;
+  border-radius: 150px;
+  margin-bottom: 0;
+}
+
+.-label:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 10000;
+  color: rgb(250, 250, 250);
+  transition: background-color 0.2s ease-in-out;
+  border-radius: 150px;
+  margin-bottom: 0;
+}
+
+.spanava {
+  display: inline-flex;
+  padding: 0.2em;
+  height: 2em;
+}
+
+.ProfCont {
+  display: flex;
+  width: 90%;
+  margin-left: 0;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 0 5px black;
+  margin-top: 30px;
+  border-radius: 12px;
+}
+main {
+  width: 100%;
+  padding: 20px;
+  margin-top: 30px;
+  border-radius: 12px;
+  background-color: rgb(255, 255, 255);
+}
+.sidebar {
+  background: rgb(239 239 239);
+  color: black;
+  height: 100vh;
+  width: 200px;
+  border-radius: 12px 0px 0px 12px;
+  transition: all 0.5s;
+}
+.top_section {
+  display: flex;
+  align-items: center;
+  padding: 20px 15px;
+}
+.Proflogo {
+  font-size: 25px;
+}
+.bars {
+  display: flex;
+  font-size: 25px;
+  margin-left: 50px;
+}
+.link {
+  display: flex;
+  color: black;
+  padding: 10px 15px;
+  gap: 15px;
+  transition: all 0.5s;
+}
+.link:hover {
+  background: rgb(188, 188, 188);
+  color: #000;
+  transition: all 0.5s;
+}
+.active {
+  background: rgb(188, 188, 188);
+  color: #000;
+}
+.icon,
+.link_text {
+  font-size: 20px;
+}
+
+.profile-pic {
+  color: transparent;
+  transition: all 0.3s ease;
+
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.wrapper {
+  grid-template-columns: repeat(5, 0.1fr);
+}
+
+.FilterSearch {
+  width: 795px;
+}
+
+@media (max-width: 1569px) {
+  .wrapper {
+    grid-template-columns: repeat(4, 0.1fr);
+  }
+
+  .FilterSearch {
+    width: 350px;
+  }
+
+  .Filterer {
+    width: 1216px;
+    column-gap: 126px;
+  }
+}
+
+@media (max-width: 1250px) {
+  .wrapper {
+    grid-template-columns: repeat(3, 0.1fr);
+  }
+  .FilterGap {
+    column-gap: 0px !important;
+  }
+  .FilterSearch {
+    width: 250px !important;
+  }
+  .Filterer {
+    column-gap: 0px;
+    width: 904px;
+  }
+}

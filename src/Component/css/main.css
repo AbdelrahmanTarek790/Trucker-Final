@@ -1,0 +1,178 @@
+:root {
+  --r-orange: #155724;
+}
+
+.headerul {
+  width: 45%;
+  text-align: center;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1300px !important;
+  }
+}
+@media (max-width: 1386px) {
+  .headerul {
+    width: 50%;
+  }
+  .signinupcss {
+    width: 13% !important;
+  }
+}
+@media (max-width: 1350px) {
+  .headerul {
+    width: 50%;
+  }
+  .signinupcss {
+    width: 13% !important;
+  }
+}
+@media (max-width: 1250px) {
+  .headerul {
+    width: 60%;
+  }
+  .signinupcss {
+    width: 13% !important;
+  }
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  padding-top: 60px;
+}
+.footer h3 {
+  margin-bottom: 50px;
+}
+
+.footer p {
+  width: 90%;
+  margin-bottom: 50px;
+}
+
+.footer ul {
+  line-height: 2;
+}
+
+.footer .socil li {
+  line-height: 2;
+  display: inline;
+  margin-left: 10px;
+  font-size: 24px;
+}
+
+.fa-facebook {
+  color: Blue;
+}
+.fa-twitter {
+  color: #007bff;
+}
+.fa-instagram {
+  color: #cf1de4;
+}
+.fa-envelope {
+  color: #d43626;
+}
+
+.fa-facebook:hover {
+  color: #646cff;
+}
+.fa-twitter:hover {
+  color: #646cff;
+}
+.fa-instagram:hover {
+  color: #646cff;
+}
+.fa-envelope:hover {
+  color: #646cff;
+}
+
+.footer h5 {
+  margin: 50px auto;
+}
+
+.foot {
+  color: #f8f9fa;
+}
+
+@media (max-width: 576px) {
+  .footer h3 {
+    font-size: 24px;
+  }
+  .footer h4 {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  .footer h5 {
+    font-size: 18px;
+  }
+  .footer p {
+    font-size: 16px;
+    width: 100%;
+  }
+  .footer .socil li {
+    font-size: 20px;
+  }
+}
+.homepagetext {
+  position: absolute;
+  bottom: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 10%;
+}
+
+@media (max-width: 1700px) {
+  .homepagetext {
+    bottom: 35%;
+    margin-left: 8%;
+  }
+  .Textparphs {
+    font-size: 3em;
+  }
+}
+@media (max-width: 1500px) {
+  .homepagetext {
+    bottom: 30%;
+    margin-left: 8%;
+  }
+  .Textparphs {
+    font-size: 2.5em;
+  }
+}
+@media (max-width: 1280px) {
+  .homepagetext {
+    bottom: 30%;
+    margin-left: 8%;
+  }
+  .Textparphs {
+    font-size: 2em;
+  }
+}
+
+.Flex3 {
+  width: 80%;
+  display: flex;
+  flex-direction: row-reverse;
+  margin-left: 5%;
+}
+
+.moreformore {
+  margin-top: 30px;
+  width: 40%;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 15px;
+  font-family: Cairo;
+  transition: all 2s;
+}
+
+.moreformore:hover {
+  background-color: white;
+  color: black;
+}

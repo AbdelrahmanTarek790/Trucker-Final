@@ -1,0 +1,202 @@
+.contact {
+   padding-top: 4rem;
+   padding-bottom: 2rem;
+}
+.contact-heading {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-bottom: 4rem;
+   padding-right: 2rem;
+}
+.contact-heading h2 {
+   color: rgb(242, 178, 0);
+   font-size: 2rem;
+   font-weight: 600;
+   letter-spacing: 2px;
+   position: relative;
+   font-family: "Bai Jamjuree", sans-serif;
+}
+.contact-heading h2::before {
+   position: absolute;
+   top: 50%;
+   right: -80px;
+   content: "";
+   width: 70px;
+   height: 2px;
+   background: rgb(242, 178, 0);
+}
+.contact-heading h2::after {
+   position: absolute;
+   top: 50%;
+   right: 200px;
+   content: "";
+   width: 70px;
+   height: 2px;
+   background: rgb(242, 178, 0);
+}
+.contact-container {
+   max-width: 1170px;
+   padding-left: 1rem;
+   padding-right: 1rem;
+   margin: auto;
+}
+.contact-row {
+   display: flex;
+   flex-wrap: wrap;
+}
+.contact-column {
+   flex: 0 0 auto;
+   width: 50%;
+}
+.contact.widget {
+   margin-bottom: 40px;
+   padding-right: 10px;
+}
+.contact.widget.item {
+   overflow: hidden;
+   margin-bottom: 40px;
+}
+.contact-icon {
+   height: 60px;
+   width: 60px;
+   background: rgb(242, 178, 0);
+   border-radius: 50%;
+   line-height: 60px;
+   text-align: center;
+   margin-right: 30px;
+   float: left;
+}
+.contact-icon i {
+   font-size: 24px;
+   color: #fff;
+   position: relative;
+   top: 3px;
+}
+.contact-text {
+   overflow: hidden;
+}
+.contact-text h5 {
+   color: #111;
+   font-size: 20px;
+   font-weight: 500;
+   margin-bottom: 6px;
+}
+.contact-text p {
+   font-size: 16px;
+   font-family: "Bai Jamjuree", sans-serif;
+   color: #111;
+   font-weight: 400;
+   line-height: 28px;
+   margin: 0 0 15px 0;
+}
+.contact.form {
+   text-align: center;
+   margin-bottom: 40px;
+}
+.contact-form {
+   display: block;
+   margin-top: 0cm;
+}
+.contact-form input {
+   height: 46px;
+   width: 100%;
+   padding-left: 20px;
+   font-size: 15px;
+   color: #111;
+   border: 1px solid #e1e1e1;
+   margin-bottom: 20px;
+   border-radius: 4px;
+   transition: all, 0.3s;
+}
+.contact-form textarea {
+   height: 46px;
+   width: 100%;
+   padding-left: 20px;
+   font-size: 15px;
+   color: #111;
+   border: 1px solid #e1e1e1;
+   margin-bottom: 20px;
+   border-radius: 4px;
+   transition: all, 0.3s;
+}
+.contact-form button {
+   width: 100%;
+   cursor: pointer;
+}
+.contact-site-btn {
+   border: none;
+   display: inline-block;
+   /* background: rgba(255, 215, 35, .3);*/
+   background: #111;
+   color: #111;
+   font-size: 18px;
+   font-family: Cairo;
+   font-weight: bold;
+   letter-spacing: 2px;
+   text-transform: uppercase;
+   border-radius: 50px;
+   padding: 12px 40px 10px;
+   margin-bottom: 60px;
+
+   position: relative;
+   text-align: center;
+   padding: 20px;
+   color: rgb(242, 178, 0);
+   border: 5px solid rgb(242, 178, 0);
+   cursor: pointer;
+   transition: 1.5s;
+}
+.site-btn:hover {
+   box-shadow: 0 5px 30px 0 rgb(204, 150, 0) inset;
+   text-shadow: 0 0 5px rgb(204, 150, 0);
+}
+.contact-map-column {
+   flex: 0 0 auto;
+   width: 100%;
+}
+.contact-map iframe {
+   width: 100%;
+}
+
+.custom-file-upload {
+   border-radius: 50%;
+   display: inline-block;
+   position: relative;
+   padding: 4px;
+   cursor: pointer;
+   background: linear-gradient(270deg, #262929, #000000);
+   margin-bottom: 25px;
+}
+
+.img-wrap {
+   position: relative;
+   width: 200px;
+   height: 200px;
+   overflow: hidden;
+   border-radius: 50%;
+}
+.img-upload:before {
+   content: "\f093";
+   font-size: 90px;
+   position: absolute;
+   padding-top: 80px;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   text-align: center;
+   color: black;
+   width: 200px;
+   height: 200px;
+   border-radius: 50%;
+   opacity: 0;
+   transition: 0.5s ease;
+   background-color: #fff;
+}
+.img-upload:hover:before {
+   opacity: 1;
+}
+.imgprofile {
+   width: auto;
+   height: 100%;
+}
